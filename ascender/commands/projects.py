@@ -1,9 +1,8 @@
 import os
-import subprocess
 from typer import Typer, Option
 from rich.console import Console
 
-from logic.projects import InstallationMasterLogic
+from ascender.logic.projects import InstallationMasterLogic
 
 router = Typer(name="projects", add_completion=True)
 console = Console()

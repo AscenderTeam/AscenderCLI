@@ -3,7 +3,7 @@ from rich.console import Console
 import os
 import subprocess
 
-from settings import IS_UNIX
+from ascender.settings import IS_UNIX
 
 
 class RunnerLogic:

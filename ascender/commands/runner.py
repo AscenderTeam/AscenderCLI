@@ -1,6 +1,6 @@
-from logic.runner import RunnerLogic
+from ascender.logic.runner import RunnerLogic
 from rich.console import Console
-from app import cli_app
+from ascender.app import cli_app
 
 console = Console()
 

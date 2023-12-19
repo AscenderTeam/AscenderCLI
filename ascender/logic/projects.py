@@ -1,5 +1,5 @@
 from pathlib import Path
-from settings import FRAMEWORK_TYPES, IS_UNIX
+from ascender.settings import FRAMEWORK_TYPES, IS_UNIX
 from typing import Literal, Optional
 from rich.console import Console
 from rich.progress_bar import ProgressBar
