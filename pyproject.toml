@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ascender"
+version = "0.1.0"
+description = "The CLI tool for working with AscenderFramework: Installation, command execution and version management"
+authors = ["AscenderTeam"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = {extras = ["all"], version = "^0.9.0"}
+readchar = "^4.0.5"
+rich = "^13.7.0"
+gitpython = "^3.1.40"
+virtualenv = "^20.25.0"
+
+[tool.poetry.scripts]
+ascender = "ascender.launch:cli_app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
