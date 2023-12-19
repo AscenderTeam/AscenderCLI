@@ -1,4 +1,4 @@
-# AscenderFramework CLI
+# [AscenderFramework CLI](https://github.com/AscenderTeam/AscenderCLI)
 
 CLI for interacting with core [framework](https://github.com/AscenderTeam/AscenderFramework) functionality.
 This CLI allows users to create new AscenderFramework projects, as well as manage existing projects running their CLI.
