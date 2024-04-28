@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "ascender"
-version = "0.1.2"
+version = "0.1.5"
 description = "The CLI tool for working with AscenderFramework: Installation, command execution and version management"
 authors = ["AscenderTeam"]
-url = "https://github.com/AscenderTeam/AscenderCLI"
+repository = "https://github.com/AscenderTeam/AscenderCLI"
 license = "GPL-3.0"
 readme = "README.md"
 
@@ -14,6 +14,8 @@ readchar = "^4.0.5"
 rich = "^13.7.0"
 gitpython = "^3.1.40"
 virtualenv = "^20.25.0"
+toml = "^0.10.2"
+requests = "^2.31.0"
 
 [tool.poetry.scripts]
 ascender = "ascender.launch:cli_app"

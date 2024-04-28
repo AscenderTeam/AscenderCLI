@@ -6,3 +6,5 @@ FRAMEWORK_TYPES = {
 }
 
 IS_UNIX = os.name == "posix"
+
+FRAMEWORK_STABLE_LATEST_VERSION = "v0.0.2"
