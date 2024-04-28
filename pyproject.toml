@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ascender"
-version = "0.1.5"
+version = "0.1.6"
 description = "The CLI tool for working with AscenderFramework: Installation, command execution and version management"
 authors = ["AscenderTeam"]
 repository = "https://github.com/AscenderTeam/AscenderCLI"

@@ -39,7 +39,11 @@ class UpdaterMasterLogic:
         """
         directory = os.getcwd()
 
-        if os.path.exists(f"{directory}/.asc_venv") and os.path.exists(f"{directory}/start.py") and os.path.exists(f"{directory}/core"):
+        if os.path.exists(f"{directory}/start.py") and os.path.exists(f"{directory}/core") and os.path.exists(f"{directory}/pyproject.toml"):
+            toml_data = load(self.toml_path)
+            if toml_data["tool"]["poetry"]["name"] != "ascender-framework":
+                return False
+            
             return True
 
     def get_version(self) -> str:
