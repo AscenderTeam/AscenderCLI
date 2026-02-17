@@ -1,3 +1,6 @@
+> [!WARNING]
+> This project is not supported by AscenderTeam anymore and marked as deprecated, currently versions of [Ascender Framework](https://github.com/AscenderTeam/AscenderFramework) starting from 2.0.x has own built-in CLI and they can be customized.
+> To use ascender framework, please use new supported version [framework](https://pypi.org/project/ascender-framework) `pip install ascender-framework`
 # [AscenderFramework CLI](https://github.com/AscenderTeam/AscenderCLI)
 
 CLI for interacting with core [framework](https://github.com/AscenderTeam/AscenderFramework) functionality.
